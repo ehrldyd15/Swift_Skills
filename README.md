@@ -2,7 +2,7 @@
 
 | 목록 | URL |
 | ------ | ------ |
-| Async await | https://shields.io/ |
+| Async await | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Async---await |
 | Dynamic Member Lookup | https://simpleicons.org |
 | Managing Memory | https://github.com/kyechan99/capsule-render |
 | NSCashe | https://dillinger.io |
