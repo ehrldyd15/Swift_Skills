@@ -13,5 +13,4 @@
 | Static & Dynamic Dispatch 2 | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Static-Dispatch-&-Dynamic-Dispatch-2 |
 | Tuple | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Tuple |
 | Weak self | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Weak-self |
-| XCConfig | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/XCConfig |
 
