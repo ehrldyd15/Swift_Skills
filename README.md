@@ -14,4 +14,4 @@
 | Tuple | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Tuple |
 | Weak self | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Weak-self |
 | Swinject | https://github.com/ehrldyd15/Swift_Skills/wiki/Swinject |
-| SwiftAlgorithms | https://github.com/ehrldyd15/Swift_Skills/wiki/Swinject |
+| SwiftAlgorithms | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-Algorithms |
