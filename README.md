@@ -15,3 +15,5 @@
 | Weak self | https://github.com/ehrldyd15/Swift_Basic_Skills/wiki/Weak-self |
 | Swinject | https://github.com/ehrldyd15/Swift_Skills/wiki/Swinject |
 | Swift Algorithms | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-Algorithms |
+| Lazy Variables | https://github.com/ehrldyd15/Swift_Skills/wiki/Lazy-Variables |
+
