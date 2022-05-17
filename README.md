@@ -13,7 +13,7 @@
 | Static & Dynamic Dispatch 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/Static-Dispatch-&-Dynamic-Dispatch-2 |
 | Tuple | https://github.com/ehrldyd15/Swift_Skills/wiki/Tuple |
 | Weak self | https://github.com/ehrldyd15/Swift_Skills/wiki/Weak-self |
-| Swinject | https://github.com/ehrldyd15/Swift_Skills/wiki/Swinject |
+| Dependency Injection | https://github.com/ehrldyd15/Swift_Skills/wiki/Dependency-Injection |
 | Swift Algorithms | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-Algorithms |
 | Lazy Variables | https://github.com/ehrldyd15/Swift_Skills/wiki/Lazy-Variables |
 
