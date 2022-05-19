@@ -17,5 +17,5 @@
 | Swift Algorithms | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-Algorithms |
 | Lazy Variables | https://github.com/ehrldyd15/Swift_Skills/wiki/Lazy-Variables |
 | Swift 고차함수 | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98 |
-| Closure | https://medium.com/@jgj455/%EC%98%A4%EB%8A%98%EC%9D%98-swift-%EC%83%81%EC%8B%9D-closure-aa401f76b7ce |
+| Closure | https://github.com/ehrldyd15/Swift_Skills/wiki/Closure |
 
