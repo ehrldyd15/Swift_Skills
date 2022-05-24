@@ -6,9 +6,6 @@
 | ------ | ------ |
 | Async await | https://github.com/ehrldyd15/Swift_Skills/wiki/Async---await |
 | Dynamic Member Lookup | https://github.com/ehrldyd15/Swift_Skills/wiki/Dynamic-Member-Lookup |
-| Managing Memory | https://github.com/ehrldyd15/Swift_Skills/wiki/Managing-Memory |
-| NSCashe | https://github.com/ehrldyd15/Swift_Skills/wiki/NSCache |
-| Performance optimization | https://github.com/ehrldyd15/Swift_Skills/wiki/Performance-optimization-using-Dispatch-(feat.-final) |
 | Property Wrapper | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-Wrapper |
 | Semaphor | https://github.com/ehrldyd15/Swift_Skills/wiki/Semaphor |
 | Static & Dynamic Dispatch 1 | https://github.com/ehrldyd15/Swift_Skills/wiki/Static-Dispatch-&-Dynamic-Dispatch-1 |
@@ -20,6 +17,14 @@
 | Lazy Variables | https://github.com/ehrldyd15/Swift_Skills/wiki/Lazy-Variables |
 | Swift 고차함수 | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98 |
 | Closure(클로져) | https://github.com/ehrldyd15/Swift_Skills/wiki/Closure |
+
+## 최적화
+
+| 목록 | URL |
+| ------ | ------ |
+| Managing Memory | https://github.com/ehrldyd15/Swift_Skills/wiki/Managing-Memory |
+| NSCashe | https://github.com/ehrldyd15/Swift_Skills/wiki/NSCache |
+| Performance optimization | https://github.com/ehrldyd15/Swift_Skills/wiki/Performance-optimization-using-Dispatch-(feat.-final) |
 
 
 ## concurrency 
