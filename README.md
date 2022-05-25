@@ -41,7 +41,7 @@
 
 | 목록 | URL |
 | ------ | ------ |
-| RXSwift | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F |
+| RXSwift | https://github.com/ehrldyd15/Swift_Skills/wiki/RXSwift |
 
 
 
