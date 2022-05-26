@@ -43,7 +43,7 @@
 | ------ | ------ |
 | RXSwift의 개념 | https://github.com/ehrldyd15/Swift_Skills/wiki/RXSwift |
 | RXSwift [Observables] | https://github.com/ehrldyd15/Swift_Skills/wiki/RXSwift-%5BObservavles%5D |
-
+| RXSwift [Subjects] | https://github.com/ehrldyd15/Swift_Skills/wiki/RXSwift-%5BSubjects%5D |
 
 
 
