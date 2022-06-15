@@ -14,7 +14,7 @@
 | Swift 고차함수 | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98 |
 | Closure(클로저) | https://github.com/ehrldyd15/Swift_Skills/wiki/Closure |
 | Property(저장, 지연) | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-%5B%EC%A0%80%EC%9E%A5%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0,-%EC%A7%80%EC%97%B0%EC%A0%80%EC%9E%A5%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%5D |
-
+| Property(연산) | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-%5B%EC%A0%80%EC%9E%A5%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0,-%EC%A7%80%EC%97%B0%EC%A0%80%EC%9E%A5%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%5D |
 
 ## 최적화
 
