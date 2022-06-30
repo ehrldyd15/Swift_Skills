@@ -39,3 +39,7 @@
 | GCD의 활용 1 | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EC%9D%98-%ED%99%9C%EC%9A%A9-1-(DispatchQueue) |
 | GCD의 활용 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EC%9D%98-%ED%99%9C%EC%9A%A9-2-(DispatchGroup,-DispatchSemaphore) |
 
+## 다음과제
+codable, decodable, JSON인코딩에 대하여 정리할것..
+
+
