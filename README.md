@@ -43,3 +43,5 @@
 1. codable, decodable, JSON인코딩에 대하여 정리할것..
 
 2. tuist알아보고 정리
+
+3. 제네릭 타입 공부 (https://babbab2.tistory.com/136)
