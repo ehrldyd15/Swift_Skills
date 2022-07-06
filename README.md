@@ -45,3 +45,5 @@
 2. tuist알아보고 정리
 
 3. 제네릭 타입 공부 (https://babbab2.tistory.com/136)
+
+4. 타입 캐스팅 (https://babbab2.tistory.com/127?category=828998)
