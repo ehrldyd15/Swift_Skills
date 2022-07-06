@@ -17,7 +17,7 @@
 | Property(연산) | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-%5B%EC%97%B0%EC%82%B0%5D |
 | Property(타입) | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-%5B%ED%83%80%EC%9E%85%5D |
 | Property(옵저버) | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-%5B%EC%98%B5%EC%A0%80%EB%B2%84%5D |
-| Generic(제네릭) | https://github.com/ehrldyd15/Swift_Skills/wiki/Property-%5B%EC%98%B5%EC%A0%80%EB%B2%84%5D |
+| Generic(제네릭) | https://github.com/ehrldyd15/Swift_Skills/wiki/Generic(%EC%A0%9C%EB%84%A4%EB%A6%AD) |
 
 ## 최적화
 
