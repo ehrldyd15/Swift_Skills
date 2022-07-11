@@ -24,7 +24,7 @@
 | Hash Table | https://github.com/ehrldyd15/Swift_Skills/wiki/Hash-Table |
 | Equatable | https://github.com/ehrldyd15/Swift_Skills/wiki/Equatable |
 | Hashable | https://github.com/ehrldyd15/Swift_Skills/wiki/Hashable |
-| Comparable | https://github.com/ehrldyd15/Swift_Skills/wiki/Hashable |
+| Comparable | https://github.com/ehrldyd15/Swift_Skills/wiki/Comparable |
 
 ## 최적화
 
