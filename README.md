@@ -22,7 +22,7 @@
 | Any & Any Object | https://github.com/ehrldyd15/Swift_Skills/wiki/Any-&-Any-Object |
 | Inout Parameter | https://github.com/ehrldyd15/Swift_Skills/wiki/Inout-Parameter |
 | Equatable | https://github.com/ehrldyd15/Swift_Skills/wiki/Equatable |
-| Hash Table | https://github.com/ehrldyd15/Swift_Skills/wiki/Equatable |
+| Hash Table | https://github.com/ehrldyd15/Swift_Skills/wiki/Hash-Table |
 
 ## 최적화
 
