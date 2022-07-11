@@ -21,6 +21,7 @@
 | Type Casting(타입 캐스팅) | https://github.com/ehrldyd15/Swift_Skills/wiki/Type-Casting(%ED%83%80%EC%9E%85-%EC%BA%90%EC%8A%A4%ED%8C%85) |
 | Any & Any Object | https://github.com/ehrldyd15/Swift_Skills/wiki/Any-&-Any-Object |
 | Inout Parameter | https://github.com/ehrldyd15/Swift_Skills/wiki/Inout-Parameter |
+| Equatable | https://github.com/ehrldyd15/Swift_Skills/wiki/Inout-Parameter |
 
 ## 최적화
 
