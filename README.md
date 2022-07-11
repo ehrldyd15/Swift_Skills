@@ -23,7 +23,7 @@
 | Inout Parameter | https://github.com/ehrldyd15/Swift_Skills/wiki/Inout-Parameter |
 | Hash Table | https://github.com/ehrldyd15/Swift_Skills/wiki/Hash-Table |
 | Equatable | https://github.com/ehrldyd15/Swift_Skills/wiki/Equatable |
-| Hashable | https://github.com/ehrldyd15/Swift_Skills/wiki/Equatable |
+| Hashable | https://github.com/ehrldyd15/Swift_Skills/wiki/Hashable |
 
 ## 최적화
 
