@@ -25,7 +25,7 @@
 | Equatable | https://github.com/ehrldyd15/Swift_Skills/wiki/Equatable |
 | Hashable | https://github.com/ehrldyd15/Swift_Skills/wiki/Hashable |
 | Comparable | https://github.com/ehrldyd15/Swift_Skills/wiki/Comparable |
-| Codable | https://github.com/ehrldyd15/Swift_Skills/wiki/Comparable |
+| Codable | https://github.com/ehrldyd15/Swift_Skills/wiki/Codable |
 
 ## 최적화
 
