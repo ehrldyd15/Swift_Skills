@@ -49,7 +49,5 @@
 | GCD의 활용 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EC%9D%98-%ED%99%9C%EC%9A%A9-2-(DispatchGroup,-DispatchSemaphore) |
 
 ## 다음과제
-1. codable, decodable, JSON인코딩에 대하여 정리할것..
-
-2. tuist알아보고 정리
+1. tuist알아보고 정리
 
