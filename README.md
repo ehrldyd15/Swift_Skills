@@ -50,6 +50,10 @@
 | GCD의 활용 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EC%9D%98-%ED%99%9C%EC%9A%A9-2-(DispatchGroup,-DispatchSemaphore) |
 | ARC | https://github.com/ehrldyd15/Swift_Skills/wiki/ARC |
 
-## 다음과제
-1. tuist알아보고 정리
+## 모듈화
+
+| 목록 | URL |
+| ------ | ------ |
+| GCD란 무엇인가? | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F |
+
 
