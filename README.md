@@ -54,6 +54,6 @@
 
 | 목록 | URL |
 | ------ | ------ |
-| GCD란 무엇인가? | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F |
+| 모듈화 개념 | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F |
 
 
