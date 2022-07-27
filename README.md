@@ -55,6 +55,6 @@
 | 목록 | URL |
 | ------ | ------ |
 | 모듈화 개념 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EB%AA%A8%EB%93%88%ED%99%94-%EA%B0%9C%EB%85%90 |
-| 모듈화 개념 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EB%AA%A8%EB%93%88%ED%99%94-%EA%B0%9C%EB%85%90 |
+| 모듈화 개념 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EB%AA%A8%EB%93%88%ED%99%94-%EA%B0%9C%EB%85%90 |
 
 
