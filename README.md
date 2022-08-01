@@ -27,6 +27,7 @@
 | Comparable | https://github.com/ehrldyd15/Swift_Skills/wiki/Comparable |
 | Codable | https://github.com/ehrldyd15/Swift_Skills/wiki/Codable |
 | Closure와 @escaping | https://github.com/ehrldyd15/Swift_Skills/wiki/Closure%EC%99%80-@escaping |
+| URL 처리 방법 | https://github.com/ehrldyd15/Swift_Skills/wiki/Closure%EC%99%80-@escaping |
 
 ## 최적화
 
