@@ -63,5 +63,5 @@
 
 | 목록 | URL |
 | ------ | ------ |
-| JSON Decoded | https://github.com/ehrldyd15/Swift_Skills/wiki/%EB%AA%A8%EB%93%88%ED%99%94-%EA%B0%9C%EB%85%90 |
+| JSON Decoded | https://github.com/ehrldyd15/Swift_Skills/wiki/JSON-Decoded |
 
