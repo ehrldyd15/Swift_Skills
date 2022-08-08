@@ -66,4 +66,4 @@
 | JSON Decoded | https://github.com/ehrldyd15/Swift_Skills/wiki/JSON-Decoded |
 | WKWebView 개념 | https://github.com/ehrldyd15/Swift_Skills/wiki/WKWebView-%EA%B0%9C%EB%85%90 |
 | WKWebView 사용 방법 | https://github.com/ehrldyd15/Swift_Skills/wiki/WKWebView-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95 |
-다음 학습 https://ios-development.tistory.com/750?category=899471
+| WKWebView 양방향 통신 | https://github.com/ehrldyd15/Swift_Skills/wiki/WKWebView-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95 |
