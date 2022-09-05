@@ -42,7 +42,6 @@
 | Dependency Injection | https://github.com/ehrldyd15/Swift_Skills/wiki/Dependency-Injection |
 | Weak self | https://github.com/ehrldyd15/Swift_Skills/wiki/Weak-self |
 
-
 ## concurrency 
 
 | 목록 | URL |
@@ -69,5 +68,3 @@
 | WKWebView 개념 | https://github.com/ehrldyd15/Swift_Skills/wiki/WKWebView-%EA%B0%9C%EB%85%90 |
 | WKWebView 사용 방법 | https://github.com/ehrldyd15/Swift_Skills/wiki/WKWebView-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95 |
 | WKWebView 양방향 통신 | https://github.com/ehrldyd15/Swift_Skills/wiki/WKWebView-%EC%96%91%EB%B0%A9%ED%96%A5-%ED%86%B5%EC%8B%A0 |
-
-
