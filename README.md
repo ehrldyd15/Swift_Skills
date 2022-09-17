@@ -75,3 +75,4 @@
 | 목록 | URL |
 | ------ | ------ |
 | 초기화(Initializers) - 구조체 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---%EA%B5%AC%EC%A1%B0%EC%B2%B4 |
+| 초기화(Initializers) - 클래스 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---%EA%B5%AC%EC%A1%B0%EC%B2%B4 |
