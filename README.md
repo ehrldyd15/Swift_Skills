@@ -30,7 +30,7 @@
 | URL 처리 방법 | https://github.com/ehrldyd15/Swift_Skills/wiki/URL-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95 |
 | 패턴 매칭 | https://github.com/ehrldyd15/Swift_Skills/wiki/%ED%8C%A8%ED%84%B4-%EB%A7%A4%EC%B9%AD-(Pattern-Matching) |
 | Completion Handler | https://github.com/ehrldyd15/Swift_Skills/wiki/Completion-Handler |
-| 예외처리 (throws, do-catch, try) | https://github.com/ehrldyd15/Swift_Skills/wiki/Completion-Handler |
+| 예외처리 (throws, do-catch, try) | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC-(throws,-do-catch,-try) |
 
 ## 최적화
 
