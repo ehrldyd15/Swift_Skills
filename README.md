@@ -55,6 +55,7 @@
 | GCD의 활용 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/GCD%EC%9D%98-%ED%99%9C%EC%9A%A9-2-(DispatchGroup,-DispatchSemaphore) |
 | ARC | https://github.com/ehrldyd15/Swift_Skills/wiki/ARC |
 | Process VS Thread | https://github.com/ehrldyd15/Swift_Skills/wiki/Process-VS-Thread |
+| Sync VS Async | https://github.com/ehrldyd15/Swift_Skills/wiki/Process-VS-Thread |
 
 ## 모듈화
 
