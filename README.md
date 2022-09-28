@@ -57,6 +57,7 @@
 | Process VS Thread | https://github.com/ehrldyd15/Swift_Skills/wiki/Process-VS-Thread |
 | Sync VS Async | https://github.com/ehrldyd15/Swift_Skills/wiki/Sync-VS-Async |
 | Serial vs Concurrent | https://github.com/ehrldyd15/Swift_Skills/wiki/Serial-vs-Concurrent |
+| GCD | https://github.com/ehrldyd15/Swift_Skills/wiki/Serial-vs-Concurrent |
 
 ## 모듈화
 
