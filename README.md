@@ -1,3 +1,13 @@
+# Swift_ToyProject
+
+## 프로젝트 추가이력
+
+### 학습
+
+| 날짜  | 프로젝트명 | 참고자료 |
+| ------ | ------ | ------ |
+| 2022.11.30 | DependencyInjection | 의존성 주입이란? |
+
 # 학습 리스트업 in WiKi
 
 ## 일반 
@@ -85,13 +95,3 @@
 | 초기화(Initializers) - 구조체 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---%EA%B5%AC%EC%A1%B0%EC%B2%B4 |
 | 초기화(Initializers) - 클래스 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---%ED%81%B4%EB%9E%98%EC%8A%A4 |
 | 초기화(Initializers) - Initializer Delegation | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---Initializer-Delegation |
-
-# Swift_ToyProject
-
-## 프로젝트 추가이력
-
-### 학습
-
-| 날짜  | 프로젝트명 | 참고자료 |
-| ------ | ------ | ------ |
-| 2022.11.30 | DependencyInjection | 의존성 주입이란? |
