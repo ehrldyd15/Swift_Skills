@@ -37,6 +37,13 @@
 			remoteGlobalIDString = 007C2E5329387A160030BC36;
 			remoteInfo = Sequence;
 		};
+		007C2E94293883180030BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007C2E90293883180030BC36 /* AsyncSequence.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 007C2E79293883170030BC36;
+			remoteInfo = AsyncSequence;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +58,7 @@
 		007C2E1E2936F0140030BC36 /* DependencyInjection.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DependencyInjection.xcodeproj; path = DependencyInjection/DependencyInjection.xcodeproj; sourceTree = "<group>"; };
 		007C2E442938437A0030BC36 /* Concurrency_AsyncAwait.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Concurrency_AsyncAwait.xcodeproj; path = Concurrency_AsyncAwait/Concurrency_AsyncAwait.xcodeproj; sourceTree = "<group>"; };
 		007C2E6A29387A180030BC36 /* Sequence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sequence.xcodeproj; path = Sequence/Sequence.xcodeproj; sourceTree = "<group>"; };
+		007C2E90293883180030BC36 /* AsyncSequence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncSequence.xcodeproj; path = AsyncSequence/AsyncSequence.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				007C2E90293883180030BC36 /* AsyncSequence.xcodeproj */,
 				007C2E6A29387A180030BC36 /* Sequence.xcodeproj */,
 				007C2E442938437A0030BC36 /* Concurrency_AsyncAwait.xcodeproj */,
 				007C2E1E2936F0140030BC36 /* DependencyInjection.xcodeproj */,
@@ -125,6 +134,14 @@
 			isa = PBXGroup;
 			children = (
 				007C2E6F29387A190030BC36 /* Sequence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007C2E91293883180030BC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007C2E95293883180030BC36 /* AsyncSequence.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +194,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 007C2E91293883180030BC36 /* Products */;
+					ProjectRef = 007C2E90293883180030BC36 /* AsyncSequence.xcodeproj */;
+				},
+				{
 					ProductGroup = 007C2E452938437A0030BC36 /* Products */;
 					ProjectRef = 007C2E442938437A0030BC36 /* Concurrency_AsyncAwait.xcodeproj */;
 				},
@@ -216,6 +237,13 @@
 			fileType = wrapper.application;
 			path = Sequence.app;
 			remoteRef = 007C2E6E29387A190030BC36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		007C2E95293883180030BC36 /* AsyncSequence.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AsyncSequence.app;
+			remoteRef = 007C2E94293883180030BC36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

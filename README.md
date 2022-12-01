@@ -9,7 +9,7 @@
 | 2022.11.30 | DependencyInjection | 의존성 주입이란? |
 | 2022.12.01 | Concurrency_AsyncAwait | Delegate 패턴을 Async/Await로 변환하기 (참고: http://minsone.github.io/swift-concurrency-convert-delegate-to-asyncawait) |
 | 2022.12.01 | Sequence | Sequence를 알아보자 (참고: https://zeddios.tistory.com/1340) |
-
+| 2022.12.01 | AsyncSequence | Sequence를 알아보자 (참고: https://zeddios.tistory.com/1339) |
 
 # 학습 리스트업 in WiKi
 
