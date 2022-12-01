@@ -53,6 +53,7 @@ class ViewController: UIViewController {
 
 }
 
+
 // [1단계]
 // [Sequence]
 // Swift에서 Collection Type들인 Array, Set, Dictionary는 Collection프로토콜을 채택하고있다.
