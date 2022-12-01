@@ -69,9 +69,11 @@ struct Person {
         todayEat.printMeal()
     }
     
+    // 구조체 메소드가 구조체 내부에서 데이터 수정을 할 떄는 Mutating 키워드를 선언해줘야 한다.
     mutating func changeMenu(menu: Menu) {
         self.todayEat = menu
     }
+    
 }
 
 // [주입]
