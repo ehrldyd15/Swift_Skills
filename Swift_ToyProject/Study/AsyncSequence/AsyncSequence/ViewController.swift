@@ -205,7 +205,7 @@ class ViewController: UIViewController {
 
 
 // [1단계]
-// [AsyncSequence]
+// [AsyncSequence] https://developer.apple.com/documentation/swift/asyncsequence
 // AsyncSequence는 Sequence와 유사하다.
 // 한번에 하나씩 단계별로 진행할 수 있는 값 목록을 제공 + 비동기성을 추가한 타입
 

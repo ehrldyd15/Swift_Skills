@@ -10,6 +10,7 @@
 | 2022.12.01 | Concurrency_AsyncAwait | Delegate 패턴을 Async/Await로 변환하기 (참고: http://minsone.github.io/swift-concurrency-convert-delegate-to-asyncawait) |
 | 2022.12.01 | Sequence | Sequence를 알아보자 (참고: https://zeddios.tistory.com/1340) |
 | 2022.12.01 | AsyncSequence | AsyncSequence를 알아보자 (참고: https://zeddios.tistory.com/1339) |
+| 2022.12.05 | AsyncStream_AsyncThrowingStream | AsyncStream을 알아보자 (참고: https://zeddios.tistory.com/1341) |
 
 # 학습 리스트업 in WiKi
 
