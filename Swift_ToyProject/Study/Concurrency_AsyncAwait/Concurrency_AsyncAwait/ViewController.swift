@@ -7,15 +7,9 @@
 
 import UIKit
 
-// [4단계]
-// [AsyncStream]
-// 3단계의 handler 부분을 AsyncStream을 이용하여 for await in loop로 변환한다.
-// http://minsone.github.io/swift-concurrency-convert-delegate-to-asyncawait sequence, asyncSequence, asyncstream을 공부하고 다시 온다.
-
-// 참고자료
-// 1. https://zeddios.tistory.com/1340 [Sequence]
-// 2. https://zeddios.tistory.com/1339 [AsyncSequence]
-// 3. https://zeddios.tistory.com/1341 [AsyncStream]
+// [5단계]
+// [AsyncSequence]
+// 4단계에서 AsyncStream을 이용하여 for await in loop로 변환이 가능한 것으로 보아 AsysncSequence를 이용하여 구현할 수 있는 것으로 보인다.
 
 enum ViewAction {
     case tapped
@@ -28,11 +22,25 @@ protocol ViewActionListener: AnyObject {
 
 class ViewController: UIViewController {
     
-    final class Adapter: ViewActionListener {
-        var handler: ((ViewAction) -> Void)?
+    final class Adapter: AsyncSequence, ViewActionListener {
+        typealias Element = ViewAction
+        
+        private var continuation: AsyncStream<Element>.Continuation?
+        private var iterator: AsyncStream<Element>.Iterator!
+        
+        init() {
+            let stream = AsyncStream(Element.self, bufferingPolicy: .unbounded) { [weak self] continuation in
+                self?.continuation = continuation
+            }
+            self.iterator = stream.makeAsyncIterator()
+        }
+        
+        func makeAsyncIterator() -> AsyncStream<Element>.AsyncIterator {
+            iterator
+        }
         
         func send(action: ViewAction) {
-            handler?(action)
+            continuation?.yield(action)
         }
     }
     
@@ -47,7 +55,7 @@ class ViewController: UIViewController {
         Task { @MainActor [weak self] in
             guard let self = self else { return }
             
-            for await action in self.viewActionEvents() {
+            for await action in self.adapter {
                 switch action {
                 case .tapped:
                     print("tapped")
@@ -61,16 +69,6 @@ class ViewController: UIViewController {
 
         testView.requestRefresh()
         
-    }
-    
-    func viewActionEvents() -> AsyncStream<ViewAction> {
-        let actions = AsyncStream(ViewAction.self) { [weak self] continuation in
-            self?.adapter.handler = { action in
-                continuation.yield(action)
-            }
-        }
-        
-        return actions
     }
 
 }
@@ -90,6 +88,91 @@ class SomeView {
         listener?.send(action: .refresh)
     }
 }
+
+
+// [4단계]
+// [AsyncStream]
+// 3단계의 handler 부분을 AsyncStream을 이용하여 for await in loop로 변환한다.
+// http://minsone.github.io/swift-concurrency-convert-delegate-to-asyncawait sequence, asyncSequence, asyncstream을 공부하고 다시 온다.
+
+// 참고자료
+// 1. https://zeddios.tistory.com/1340 [Sequence]
+// 2. https://zeddios.tistory.com/1339 [AsyncSequence]
+// 3. https://zeddios.tistory.com/1341 [AsyncStream]
+
+//enum ViewAction {
+//    case tapped
+//    case refresh
+//}
+//
+//protocol ViewActionListener: AnyObject {
+//    func send(action: ViewAction)
+//}
+//
+//class ViewController: UIViewController {
+//
+//    final class Adapter: ViewActionListener {
+//        var handler: ((ViewAction) -> Void)?
+//
+//        func send(action: ViewAction) {
+//            handler?(action)
+//        }
+//    }
+//
+//    let testView = SomeView()
+//    let adapter = Adapter()
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        testView.listener = adapter
+//
+//        Task { @MainActor [weak self] in
+//            guard let self = self else { return }
+//
+//            for await action in self.viewActionEvents() {
+//                switch action {
+//                case .tapped:
+//                    print("tapped")
+//                case .refresh:
+//                    print("refresh")
+//                }
+//            }
+//        }
+//
+//        testView.tapped()
+//
+//        testView.requestRefresh()
+//
+//    }
+//
+//    func viewActionEvents() -> AsyncStream<ViewAction> { // ✅
+//        let actions = AsyncStream(ViewAction.self) { [weak self] continuation in
+//            self?.adapter.handler = { action in
+//                continuation.yield(action)
+//            }
+//        }
+//
+//        return actions
+//    }
+//
+//}
+//
+//class SomeView {
+//    weak var listener: ViewActionListener?
+//
+//    init() {
+//
+//    }
+//
+//    func tapped() {
+//        listener?.send(action: .tapped)
+//    }
+//
+//    func requestRefresh() {
+//        listener?.send(action: .refresh)
+//    }
+//}
 
 
 // [3단계]
