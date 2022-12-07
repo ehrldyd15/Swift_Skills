@@ -11,6 +11,7 @@
 | 2022.12.01 | Sequence | Sequence를 알아보자 (참고: https://zeddios.tistory.com/1340) |
 | 2022.12.01 | AsyncSequence | AsyncSequence를 알아보자 (참고: https://zeddios.tistory.com/1339) |
 | 2022.12.05 | AsyncStream_AsyncThrowingStream | AsyncStream을 알아보자 (참고: https://zeddios.tistory.com/1341) |
+| 2022.12.07 | FileDownloader_Preview | 파일을 다운로드하고 프리뷰를 보여준다. |
 
 # 학습 리스트업 in WiKi
 
