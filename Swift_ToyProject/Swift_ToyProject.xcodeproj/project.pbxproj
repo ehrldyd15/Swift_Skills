@@ -58,6 +58,13 @@
 			remoteGlobalIDString = 007C2F022940263F0030BC36;
 			remoteInfo = FileDownloader_Preview;
 		};
+		007C2F5D2940704F0030BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007C2F542940704E0030BC36 /* ReactorKit_Tutorial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 007C2F3D2940704E0030BC36;
+			remoteInfo = ReactorKit_Tutorial;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +82,7 @@
 		007C2E90293883180030BC36 /* AsyncSequence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncSequence.xcodeproj; path = AsyncSequence/AsyncSequence.xcodeproj; sourceTree = "<group>"; };
 		007C2EB6293D77A60030BC36 /* AsyncStream_AsyncThrowingStream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncStream_AsyncThrowingStream.xcodeproj; path = AsyncStream_AsyncThrowingStream/AsyncStream_AsyncThrowingStream.xcodeproj; sourceTree = "<group>"; };
 		007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FileDownloader_Preview.xcodeproj; path = FileDownloader_Preview/FileDownloader_Preview.xcodeproj; sourceTree = "<group>"; };
+		007C2F542940704E0030BC36 /* ReactorKit_Tutorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactorKit_Tutorial.xcodeproj; path = ReactorKit_Tutorial/ReactorKit_Tutorial.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				007C2F542940704E0030BC36 /* ReactorKit_Tutorial.xcodeproj */,
 				007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */,
 				007C2EB6293D77A60030BC36 /* AsyncStream_AsyncThrowingStream.xcodeproj */,
 				007C2E90293883180030BC36 /* AsyncSequence.xcodeproj */,
@@ -176,6 +185,14 @@
 			isa = PBXGroup;
 			children = (
 				007C2F22294026400030BC36 /* FileDownloader_Preview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007C2F552940704E0030BC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007C2F5E2940704F0030BC36 /* ReactorKit_Tutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +265,10 @@
 					ProjectRef = 007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */;
 				},
 				{
+					ProductGroup = 007C2F552940704E0030BC36 /* Products */;
+					ProjectRef = 007C2F542940704E0030BC36 /* ReactorKit_Tutorial.xcodeproj */;
+				},
+				{
 					ProductGroup = 007C2E6B29387A180030BC36 /* Products */;
 					ProjectRef = 007C2E6A29387A180030BC36 /* Sequence.xcodeproj */;
 				},
@@ -300,6 +321,13 @@
 			fileType = wrapper.application;
 			path = FileDownloader_Preview.app;
 			remoteRef = 007C2F21294026400030BC36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		007C2F5E2940704F0030BC36 /* ReactorKit_Tutorial.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ReactorKit_Tutorial.app;
+			remoteRef = 007C2F5D2940704F0030BC36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
