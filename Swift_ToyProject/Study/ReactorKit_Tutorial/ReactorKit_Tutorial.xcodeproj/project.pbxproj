@@ -13,6 +13,8 @@
 		007C2F482940704E0030BC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F462940704E0030BC36 /* Main.storyboard */; };
 		007C2F4A2940704E0030BC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F492940704E0030BC36 /* Assets.xcassets */; };
 		007C2F4D2940704E0030BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F4B2940704E0030BC36 /* LaunchScreen.storyboard */; };
+		007C2F652941D0400030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F642941D0400030BC36 /* ReactorKit */; };
+		007C2F682941D0AE0030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F672941D0AE0030BC36 /* RxCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007C2F682941D0AE0030BC36 /* RxCocoa in Frameworks */,
+				007C2F652941D0400030BC36 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 			dependencies = (
 			);
 			name = ReactorKit_Tutorial;
+			packageProductDependencies = (
+				007C2F642941D0400030BC36 /* ReactorKit */,
+				007C2F672941D0AE0030BC36 /* RxCocoa */,
+			);
 			productName = ReactorKit_Tutorial;
 			productReference = 007C2F3D2940704E0030BC36 /* ReactorKit_Tutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,10 @@
 				Base,
 			);
 			mainGroup = 007C2F342940704E0030BC36;
+			packageReferences = (
+				007C2F632941D0400030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				007C2F662941D0AE0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 007C2F3E2940704E0030BC36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -356,6 +368,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		007C2F632941D0400030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		007C2F662941D0AE0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		007C2F642941D0400030BC36 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C2F632941D0400030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		007C2F672941D0AE0030BC36 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C2F662941D0AE0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 007C2F352940704E0030BC36 /* Project object */;
 }
