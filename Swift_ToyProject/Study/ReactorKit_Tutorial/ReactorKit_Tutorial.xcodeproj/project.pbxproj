@@ -7,80 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007C2F412940704E0030BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2F402940704E0030BC36 /* AppDelegate.swift */; };
-		007C2F432940704E0030BC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2F422940704E0030BC36 /* SceneDelegate.swift */; };
-		007C2F452940704E0030BC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2F442940704E0030BC36 /* ViewController.swift */; };
-		007C2F482940704E0030BC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F462940704E0030BC36 /* Main.storyboard */; };
-		007C2F4A2940704E0030BC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F492940704E0030BC36 /* Assets.xcassets */; };
-		007C2F4D2940704E0030BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F4B2940704E0030BC36 /* LaunchScreen.storyboard */; };
-		007C2F652941D0400030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F642941D0400030BC36 /* ReactorKit */; };
-		007C2F682941D0AE0030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F672941D0AE0030BC36 /* RxCocoa */; };
+		007C2F802942CE3F0030BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2F7F2942CE3F0030BC36 /* AppDelegate.swift */; };
+		007C2F822942CE3F0030BC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2F812942CE3F0030BC36 /* SceneDelegate.swift */; };
+		007C2F842942CE3F0030BC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2F832942CE3F0030BC36 /* ViewController.swift */; };
+		007C2F872942CE3F0030BC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F852942CE3F0030BC36 /* Main.storyboard */; };
+		007C2F892942CE400030BC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F882942CE400030BC36 /* Assets.xcassets */; };
+		007C2F8C2942CE400030BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F8A2942CE400030BC36 /* LaunchScreen.storyboard */; };
+		007C2F9B2942CEE70030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F9A2942CEE70030BC36 /* ReactorKit */; };
+		007C2F9E2942CF2D0030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F9D2942CF2D0030BC36 /* RxCocoa */; };
+		007C2FA12942CFB00030BC36 /* CounterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2FA02942CFB00030BC36 /* CounterViewController.storyboard */; };
+		007C2FA32942CFC00030BC36 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2FA22942CFC00030BC36 /* CounterViewController.swift */; };
+		007C2FA52942D00B0030BC36 /* CounterVIewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2FA42942D00B0030BC36 /* CounterVIewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		007C2F3D2940704E0030BC36 /* ReactorKit_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKit_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		007C2F402940704E0030BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		007C2F422940704E0030BC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		007C2F442940704E0030BC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		007C2F472940704E0030BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		007C2F492940704E0030BC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		007C2F4C2940704E0030BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		007C2F4E2940704E0030BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007C2F7C2942CE3F0030BC36 /* ReactorKit_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKit_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007C2F7F2942CE3F0030BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		007C2F812942CE3F0030BC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		007C2F832942CE3F0030BC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		007C2F862942CE3F0030BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		007C2F882942CE400030BC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		007C2F8B2942CE400030BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		007C2F8D2942CE400030BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007C2FA02942CFB00030BC36 /* CounterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CounterViewController.storyboard; sourceTree = "<group>"; };
+		007C2FA22942CFC00030BC36 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		007C2FA42942D00B0030BC36 /* CounterVIewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterVIewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		007C2F3A2940704E0030BC36 /* Frameworks */ = {
+		007C2F792942CE3F0030BC36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007C2F682941D0AE0030BC36 /* RxCocoa in Frameworks */,
-				007C2F652941D0400030BC36 /* ReactorKit in Frameworks */,
+				007C2F9E2942CF2D0030BC36 /* RxCocoa in Frameworks */,
+				007C2F9B2942CEE70030BC36 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		007C2F342940704E0030BC36 = {
+		007C2F732942CE3F0030BC36 = {
 			isa = PBXGroup;
 			children = (
-				007C2F3F2940704E0030BC36 /* ReactorKit_Tutorial */,
-				007C2F3E2940704E0030BC36 /* Products */,
+				007C2F7E2942CE3F0030BC36 /* ReactorKit_Tutorial */,
+				007C2F7D2942CE3F0030BC36 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		007C2F3E2940704E0030BC36 /* Products */ = {
+		007C2F7D2942CE3F0030BC36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				007C2F3D2940704E0030BC36 /* ReactorKit_Tutorial.app */,
+				007C2F7C2942CE3F0030BC36 /* ReactorKit_Tutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		007C2F3F2940704E0030BC36 /* ReactorKit_Tutorial */ = {
+		007C2F7E2942CE3F0030BC36 /* ReactorKit_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				007C2F402940704E0030BC36 /* AppDelegate.swift */,
-				007C2F422940704E0030BC36 /* SceneDelegate.swift */,
-				007C2F442940704E0030BC36 /* ViewController.swift */,
-				007C2F462940704E0030BC36 /* Main.storyboard */,
-				007C2F492940704E0030BC36 /* Assets.xcassets */,
-				007C2F4B2940704E0030BC36 /* LaunchScreen.storyboard */,
-				007C2F4E2940704E0030BC36 /* Info.plist */,
+				007C2F9F2942CF9A0030BC36 /* Counter */,
+				007C2F7F2942CE3F0030BC36 /* AppDelegate.swift */,
+				007C2F812942CE3F0030BC36 /* SceneDelegate.swift */,
+				007C2F832942CE3F0030BC36 /* ViewController.swift */,
+				007C2F852942CE3F0030BC36 /* Main.storyboard */,
+				007C2F882942CE400030BC36 /* Assets.xcassets */,
+				007C2F8A2942CE400030BC36 /* LaunchScreen.storyboard */,
+				007C2F8D2942CE400030BC36 /* Info.plist */,
 			);
 			path = ReactorKit_Tutorial;
+			sourceTree = "<group>";
+		};
+		007C2F9F2942CF9A0030BC36 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				007C2FA42942D00B0030BC36 /* CounterVIewReactor.swift */,
+				007C2FA22942CFC00030BC36 /* CounterViewController.swift */,
+				007C2FA02942CFB00030BC36 /* CounterViewController.storyboard */,
+			);
+			path = Counter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		007C2F3C2940704E0030BC36 /* ReactorKit_Tutorial */ = {
+		007C2F7B2942CE3F0030BC36 /* ReactorKit_Tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 007C2F512940704E0030BC36 /* Build configuration list for PBXNativeTarget "ReactorKit_Tutorial" */;
+			buildConfigurationList = 007C2F902942CE400030BC36 /* Build configuration list for PBXNativeTarget "ReactorKit_Tutorial" */;
 			buildPhases = (
-				007C2F392940704E0030BC36 /* Sources */,
-				007C2F3A2940704E0030BC36 /* Frameworks */,
-				007C2F3B2940704E0030BC36 /* Resources */,
+				007C2F782942CE3F0030BC36 /* Sources */,
+				007C2F792942CE3F0030BC36 /* Frameworks */,
+				007C2F7A2942CE3F0030BC36 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,29 +105,29 @@
 			);
 			name = ReactorKit_Tutorial;
 			packageProductDependencies = (
-				007C2F642941D0400030BC36 /* ReactorKit */,
-				007C2F672941D0AE0030BC36 /* RxCocoa */,
+				007C2F9A2942CEE70030BC36 /* ReactorKit */,
+				007C2F9D2942CF2D0030BC36 /* RxCocoa */,
 			);
 			productName = ReactorKit_Tutorial;
-			productReference = 007C2F3D2940704E0030BC36 /* ReactorKit_Tutorial.app */;
+			productReference = 007C2F7C2942CE3F0030BC36 /* ReactorKit_Tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		007C2F352940704E0030BC36 /* Project object */ = {
+		007C2F742942CE3F0030BC36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					007C2F3C2940704E0030BC36 = {
+					007C2F7B2942CE3F0030BC36 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 007C2F382940704E0030BC36 /* Build configuration list for PBXProject "ReactorKit_Tutorial" */;
+			buildConfigurationList = 007C2F772942CE3F0030BC36 /* Build configuration list for PBXProject "ReactorKit_Tutorial" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,59 +135,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 007C2F342940704E0030BC36;
+			mainGroup = 007C2F732942CE3F0030BC36;
 			packageReferences = (
-				007C2F632941D0400030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */,
-				007C2F662941D0AE0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				007C2F992942CEE70030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				007C2F9C2942CF2D0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
-			productRefGroup = 007C2F3E2940704E0030BC36 /* Products */;
+			productRefGroup = 007C2F7D2942CE3F0030BC36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				007C2F3C2940704E0030BC36 /* ReactorKit_Tutorial */,
+				007C2F7B2942CE3F0030BC36 /* ReactorKit_Tutorial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		007C2F3B2940704E0030BC36 /* Resources */ = {
+		007C2F7A2942CE3F0030BC36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007C2F4D2940704E0030BC36 /* LaunchScreen.storyboard in Resources */,
-				007C2F4A2940704E0030BC36 /* Assets.xcassets in Resources */,
-				007C2F482940704E0030BC36 /* Main.storyboard in Resources */,
+				007C2FA12942CFB00030BC36 /* CounterViewController.storyboard in Resources */,
+				007C2F8C2942CE400030BC36 /* LaunchScreen.storyboard in Resources */,
+				007C2F892942CE400030BC36 /* Assets.xcassets in Resources */,
+				007C2F872942CE3F0030BC36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		007C2F392940704E0030BC36 /* Sources */ = {
+		007C2F782942CE3F0030BC36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007C2F452940704E0030BC36 /* ViewController.swift in Sources */,
-				007C2F412940704E0030BC36 /* AppDelegate.swift in Sources */,
-				007C2F432940704E0030BC36 /* SceneDelegate.swift in Sources */,
+				007C2F842942CE3F0030BC36 /* ViewController.swift in Sources */,
+				007C2FA32942CFC00030BC36 /* CounterViewController.swift in Sources */,
+				007C2F802942CE3F0030BC36 /* AppDelegate.swift in Sources */,
+				007C2F822942CE3F0030BC36 /* SceneDelegate.swift in Sources */,
+				007C2FA52942D00B0030BC36 /* CounterVIewReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		007C2F462940704E0030BC36 /* Main.storyboard */ = {
+		007C2F852942CE3F0030BC36 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				007C2F472940704E0030BC36 /* Base */,
+				007C2F862942CE3F0030BC36 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		007C2F4B2940704E0030BC36 /* LaunchScreen.storyboard */ = {
+		007C2F8A2942CE400030BC36 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				007C2F4C2940704E0030BC36 /* Base */,
+				007C2F8B2942CE400030BC36 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +198,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		007C2F4F2940704E0030BC36 /* Debug */ = {
+		007C2F8E2942CE400030BC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		007C2F502940704E0030BC36 /* Release */ = {
+		007C2F8F2942CE400030BC36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +312,7 @@
 			};
 			name = Release;
 		};
-		007C2F522940704E0030BC36 /* Debug */ = {
+		007C2F912942CE400030BC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,7 +323,7 @@
 				INFOPLIST_FILE = ReactorKit_Tutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CounterViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		007C2F532940704E0030BC36 /* Release */ = {
+		007C2F922942CE400030BC36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -330,7 +350,7 @@
 				INFOPLIST_FILE = ReactorKit_Tutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CounterViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,20 +369,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		007C2F382940704E0030BC36 /* Build configuration list for PBXProject "ReactorKit_Tutorial" */ = {
+		007C2F772942CE3F0030BC36 /* Build configuration list for PBXProject "ReactorKit_Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				007C2F4F2940704E0030BC36 /* Debug */,
-				007C2F502940704E0030BC36 /* Release */,
+				007C2F8E2942CE400030BC36 /* Debug */,
+				007C2F8F2942CE400030BC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		007C2F512940704E0030BC36 /* Build configuration list for PBXNativeTarget "ReactorKit_Tutorial" */ = {
+		007C2F902942CE400030BC36 /* Build configuration list for PBXNativeTarget "ReactorKit_Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				007C2F522940704E0030BC36 /* Debug */,
-				007C2F532940704E0030BC36 /* Release */,
+				007C2F912942CE400030BC36 /* Debug */,
+				007C2F922942CE400030BC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -370,36 +390,36 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		007C2F632941D0400030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+		007C2F992942CEE70030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
-		007C2F662941D0AE0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		007C2F9C2942CF2D0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		007C2F642941D0400030BC36 /* ReactorKit */ = {
+		007C2F9A2942CEE70030BC36 /* ReactorKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 007C2F632941D0400030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			package = 007C2F992942CEE70030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */;
 			productName = ReactorKit;
 		};
-		007C2F672941D0AE0030BC36 /* RxCocoa */ = {
+		007C2F9D2942CF2D0030BC36 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 007C2F662941D0AE0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 007C2F9C2942CF2D0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 007C2F352940704E0030BC36 /* Project object */;
+	rootObject = 007C2F742942CE3F0030BC36 /* Project object */;
 }
