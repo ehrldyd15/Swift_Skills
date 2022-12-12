@@ -213,6 +213,8 @@
 			dependencies = (
 			);
 			name = Swift_ToyProject;
+			packageProductDependencies = (
+			);
 			productName = Swift_ToyProject;
 			productReference = 007C2DC62936EF740030BC36 /* Swift_ToyProject.app */;
 			productType = "com.apple.product-type.application";
@@ -241,6 +243,8 @@
 				Base,
 			);
 			mainGroup = 007C2DBD2936EF740030BC36;
+			packageReferences = (
+			);
 			productRefGroup = 007C2DC72936EF740030BC36 /* Products */;
 			projectDirPath = "";
 			projectReferences = (

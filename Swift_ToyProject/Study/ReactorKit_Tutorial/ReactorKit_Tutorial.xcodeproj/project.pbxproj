@@ -13,12 +13,27 @@
 		007C2F872942CE3F0030BC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F852942CE3F0030BC36 /* Main.storyboard */; };
 		007C2F892942CE400030BC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F882942CE400030BC36 /* Assets.xcassets */; };
 		007C2F8C2942CE400030BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2F8A2942CE400030BC36 /* LaunchScreen.storyboard */; };
-		007C2F9B2942CEE70030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F9A2942CEE70030BC36 /* ReactorKit */; };
-		007C2F9E2942CF2D0030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C2F9D2942CF2D0030BC36 /* RxCocoa */; };
 		007C2FA12942CFB00030BC36 /* CounterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2FA02942CFB00030BC36 /* CounterViewController.storyboard */; };
 		007C2FA32942CFC00030BC36 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2FA22942CFC00030BC36 /* CounterViewController.swift */; };
 		007C2FA52942D00B0030BC36 /* CounterVIewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2FA42942D00B0030BC36 /* CounterVIewReactor.swift */; };
+		007C327E29470AC60030BC36 /* ReactorKit_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C327D29470AC60030BC36 /* ReactorKit_TutorialTests.swift */; };
+		007C328429470B070030BC36 /* CounterVIewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2FA42942D00B0030BC36 /* CounterVIewReactor.swift */; };
+		007C328529470B0A0030BC36 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C2FA22942CFC00030BC36 /* CounterViewController.swift */; };
+		007C328629470B130030BC36 /* CounterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C2FA02942CFB00030BC36 /* CounterViewController.storyboard */; };
+		007C32BA294714FD0030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32B9294714FD0030BC36 /* ReactorKit */; };
+		007C32BD294715160030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32BC294715160030BC36 /* RxCocoa */; };
+		007C32BF294715160030BC36 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32BE294715160030BC36 /* RxSwift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007C327F29470AC60030BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007C2F742942CE3F0030BC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007C2F7B2942CE3F0030BC36;
+			remoteInfo = ReactorKit_Tutorial;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		007C2F7C2942CE3F0030BC36 /* ReactorKit_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKit_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +47,8 @@
 		007C2FA02942CFB00030BC36 /* CounterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CounterViewController.storyboard; sourceTree = "<group>"; };
 		007C2FA22942CFC00030BC36 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		007C2FA42942D00B0030BC36 /* CounterVIewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterVIewReactor.swift; sourceTree = "<group>"; };
+		007C327B29470AC60030BC36 /* ReactorKit_TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactorKit_TutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		007C327D29470AC60030BC36 /* ReactorKit_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorKit_TutorialTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +56,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007C2F9E2942CF2D0030BC36 /* RxCocoa in Frameworks */,
-				007C2F9B2942CEE70030BC36 /* ReactorKit in Frameworks */,
+				007C32BD294715160030BC36 /* RxCocoa in Frameworks */,
+				007C32BA294714FD0030BC36 /* ReactorKit in Frameworks */,
+				007C32BF294715160030BC36 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007C327829470AC60030BC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				007C2F7E2942CE3F0030BC36 /* ReactorKit_Tutorial */,
+				007C327C29470AC60030BC36 /* ReactorKit_TutorialTests */,
 				007C2F7D2942CE3F0030BC36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				007C2F7C2942CE3F0030BC36 /* ReactorKit_Tutorial.app */,
+				007C327B29470AC60030BC36 /* ReactorKit_TutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +115,14 @@
 			path = Counter;
 			sourceTree = "<group>";
 		};
+		007C327C29470AC60030BC36 /* ReactorKit_TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				007C327D29470AC60030BC36 /* ReactorKit_TutorialTests.swift */,
+			);
+			path = ReactorKit_TutorialTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,12 +140,31 @@
 			);
 			name = ReactorKit_Tutorial;
 			packageProductDependencies = (
-				007C2F9A2942CEE70030BC36 /* ReactorKit */,
-				007C2F9D2942CF2D0030BC36 /* RxCocoa */,
+				007C32B9294714FD0030BC36 /* ReactorKit */,
+				007C32BC294715160030BC36 /* RxCocoa */,
+				007C32BE294715160030BC36 /* RxSwift */,
 			);
 			productName = ReactorKit_Tutorial;
 			productReference = 007C2F7C2942CE3F0030BC36 /* ReactorKit_Tutorial.app */;
 			productType = "com.apple.product-type.application";
+		};
+		007C327A29470AC60030BC36 /* ReactorKit_TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007C328129470AC60030BC36 /* Build configuration list for PBXNativeTarget "ReactorKit_TutorialTests" */;
+			buildPhases = (
+				007C327729470AC60030BC36 /* Sources */,
+				007C327829470AC60030BC36 /* Frameworks */,
+				007C327929470AC60030BC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007C328029470AC60030BC36 /* PBXTargetDependency */,
+			);
+			name = ReactorKit_TutorialTests;
+			productName = ReactorKit_TutorialTests;
+			productReference = 007C327B29470AC60030BC36 /* ReactorKit_TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -125,6 +179,10 @@
 					007C2F7B2942CE3F0030BC36 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
+					007C327A29470AC60030BC36 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 007C2F7B2942CE3F0030BC36;
+					};
 				};
 			};
 			buildConfigurationList = 007C2F772942CE3F0030BC36 /* Build configuration list for PBXProject "ReactorKit_Tutorial" */;
@@ -137,14 +195,15 @@
 			);
 			mainGroup = 007C2F732942CE3F0030BC36;
 			packageReferences = (
-				007C2F992942CEE70030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */,
-				007C2F9C2942CF2D0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				007C32B8294714FD0030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 007C2F7D2942CE3F0030BC36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				007C2F7B2942CE3F0030BC36 /* ReactorKit_Tutorial */,
+				007C327A29470AC60030BC36 /* ReactorKit_TutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +217,14 @@
 				007C2F8C2942CE400030BC36 /* LaunchScreen.storyboard in Resources */,
 				007C2F892942CE400030BC36 /* Assets.xcassets in Resources */,
 				007C2F872942CE3F0030BC36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007C327929470AC60030BC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007C328629470B130030BC36 /* CounterViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +243,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		007C327729470AC60030BC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007C328529470B0A0030BC36 /* CounterViewController.swift in Sources */,
+				007C328429470B070030BC36 /* CounterVIewReactor.swift in Sources */,
+				007C327E29470AC60030BC36 /* ReactorKit_TutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007C328029470AC60030BC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007C2F7B2942CE3F0030BC36 /* ReactorKit_Tutorial */;
+			targetProxy = 007C327F29470AC60030BC36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		007C2F852942CE3F0030BC36 /* Main.storyboard */ = {
@@ -366,6 +451,48 @@
 			};
 			name = Release;
 		};
+		007C328229470AC60030BC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftToyProject.www.ReactorKit-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactorKit_Tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReactorKit_Tutorial";
+			};
+			name = Debug;
+		};
+		007C328329470AC60030BC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftToyProject.www.ReactorKit-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactorKit_Tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReactorKit_Tutorial";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,37 +514,51 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		007C328129470AC60030BC36 /* Build configuration list for PBXNativeTarget "ReactorKit_TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007C328229470AC60030BC36 /* Debug */,
+				007C328329470AC60030BC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		007C2F992942CEE70030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+		007C32B8294714FD0030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.2.0;
 			};
 		};
-		007C2F9C2942CF2D0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		007C2F9A2942CEE70030BC36 /* ReactorKit */ = {
+		007C32B9294714FD0030BC36 /* ReactorKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 007C2F992942CEE70030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			package = 007C32B8294714FD0030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */;
 			productName = ReactorKit;
 		};
-		007C2F9D2942CF2D0030BC36 /* RxCocoa */ = {
+		007C32BC294715160030BC36 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 007C2F9C2942CF2D0030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
+		};
+		007C32BE294715160030BC36 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
