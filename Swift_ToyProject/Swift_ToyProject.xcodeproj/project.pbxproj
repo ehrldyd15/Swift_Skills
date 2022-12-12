@@ -65,6 +65,13 @@
 			remoteGlobalIDString = 007C2F7C2942CE3F0030BC36;
 			remoteInfo = ReactorKit_Tutorial;
 		};
+		007C32D729471A010030BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007C2F932942CE400030BC36 /* ReactorKit_Tutorial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 007C327B29470AC60030BC36;
+			remoteInfo = ReactorKit_TutorialTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -193,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				007C2F982942CE400030BC36 /* ReactorKit_Tutorial.app */,
+				007C32D829471A010030BC36 /* ReactorKit_TutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -332,6 +340,13 @@
 			fileType = wrapper.application;
 			path = ReactorKit_Tutorial.app;
 			remoteRef = 007C2F972942CE400030BC36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		007C32D829471A010030BC36 /* ReactorKit_TutorialTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactorKit_TutorialTests.xctest;
+			remoteRef = 007C32D729471A010030BC36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

@@ -13,6 +13,7 @@
 | 2022.12.05 | AsyncStream_AsyncThrowingStream | AsyncStream을 알아보자 (참고: https://zeddios.tistory.com/1341) |
 | 2022.12.07 | FileDownloader_Preview | 파일을 다운로드하고 프리뷰를 보여준다. |
 | 2022.12.09 | ReactorKit_Tutorial | ReactorKit이 무엇인지 알아보자 (참고: https://ios-development.tistory.com/782) |
+| 2022.12.12 | ReactorKit_Tutorial_UnitTest | ReactorKit의 유닛 테스트 (참고: https://ios-development.tistory.com/783) |
 
 # 학습 리스트업 in WiKi
 
