@@ -36,7 +36,7 @@ final class ReactorKit_TutorialTests: XCTestCase {
         
         // When
         counterViewController.decreaseButton.sendActions(for: .touchUpInside)
-        
+
         // Then
         XCTAssertEqual(counterReactor.stub.actions.last, .decrease)
     }
@@ -59,7 +59,7 @@ final class ReactorKit_TutorialTests: XCTestCase {
         counterReactor.stub.state.value = CounterViewReactor.State(value: 0, isLoading: true)
         
         // Then
-        XCTAssertEqual(counterViewController.activityIndicatorView.isAnimating, true)
+        XCTAssertEqual(counterViewController.activityIndicatorView.isAnimating, false)
     }
     
     /*

@@ -72,6 +72,13 @@
 			remoteGlobalIDString = 007C327B29470AC60030BC36;
 			remoteInfo = ReactorKit_TutorialTests;
 		};
+		007C331D29482CC70030BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007C331429482CC60030BC36 /* LazyVariables.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 007C32FD29482CC40030BC36;
+			remoteInfo = LazyVariables;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +97,7 @@
 		007C2EB6293D77A60030BC36 /* AsyncStream_AsyncThrowingStream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncStream_AsyncThrowingStream.xcodeproj; path = AsyncStream_AsyncThrowingStream/AsyncStream_AsyncThrowingStream.xcodeproj; sourceTree = "<group>"; };
 		007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FileDownloader_Preview.xcodeproj; path = FileDownloader_Preview/FileDownloader_Preview.xcodeproj; sourceTree = "<group>"; };
 		007C2F932942CE400030BC36 /* ReactorKit_Tutorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactorKit_Tutorial.xcodeproj; path = ReactorKit_Tutorial/ReactorKit_Tutorial.xcodeproj; sourceTree = "<group>"; };
+		007C331429482CC60030BC36 /* LazyVariables.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LazyVariables.xcodeproj; path = LazyVariables/LazyVariables.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				007C331429482CC60030BC36 /* LazyVariables.xcodeproj */,
 				007C2F932942CE400030BC36 /* ReactorKit_Tutorial.xcodeproj */,
 				007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */,
 				007C2EB6293D77A60030BC36 /* AsyncStream_AsyncThrowingStream.xcodeproj */,
@@ -201,6 +210,14 @@
 			children = (
 				007C2F982942CE400030BC36 /* ReactorKit_Tutorial.app */,
 				007C32D829471A010030BC36 /* ReactorKit_TutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007C331529482CC60030BC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007C331E29482CC70030BC36 /* LazyVariables.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,6 +294,10 @@
 					ProjectRef = 007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */;
 				},
 				{
+					ProductGroup = 007C331529482CC60030BC36 /* Products */;
+					ProjectRef = 007C331429482CC60030BC36 /* LazyVariables.xcodeproj */;
+				},
+				{
 					ProductGroup = 007C2F942942CE400030BC36 /* Products */;
 					ProjectRef = 007C2F932942CE400030BC36 /* ReactorKit_Tutorial.xcodeproj */;
 				},
@@ -347,6 +368,13 @@
 			fileType = wrapper.cfbundle;
 			path = ReactorKit_TutorialTests.xctest;
 			remoteRef = 007C32D729471A010030BC36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		007C331E29482CC70030BC36 /* LazyVariables.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LazyVariables.app;
+			remoteRef = 007C331D29482CC70030BC36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

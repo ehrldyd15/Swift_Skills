@@ -20,6 +20,9 @@
 		007C32BA294714FD0030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32B9294714FD0030BC36 /* ReactorKit */; };
 		007C32BD294715160030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32BC294715160030BC36 /* RxCocoa */; };
 		007C32BF294715160030BC36 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32BE294715160030BC36 /* RxSwift */; };
+		007C32EF29480CC10030BC36 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32EE29480CC10030BC36 /* ReactorKit */; };
+		007C32F129480CC60030BC36 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32F029480CC60030BC36 /* RxSwift */; };
+		007C32F329480CCC0030BC36 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 007C32F229480CCC0030BC36 /* RxCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007C32F329480CCC0030BC36 /* RxCocoa in Frameworks */,
+				007C32F129480CC60030BC36 /* RxSwift in Frameworks */,
+				007C32EF29480CC10030BC36 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,7 @@
 				007C2F7E2942CE3F0030BC36 /* ReactorKit_Tutorial */,
 				007C327C29470AC60030BC36 /* ReactorKit_TutorialTests */,
 				007C2F7D2942CE3F0030BC36 /* Products */,
+				007C32ED29480CC10030BC36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +127,13 @@
 			path = ReactorKit_TutorialTests;
 			sourceTree = "<group>";
 		};
+		007C32ED29480CC10030BC36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +173,11 @@
 				007C328029470AC60030BC36 /* PBXTargetDependency */,
 			);
 			name = ReactorKit_TutorialTests;
+			packageProductDependencies = (
+				007C32EE29480CC10030BC36 /* ReactorKit */,
+				007C32F029480CC60030BC36 /* RxSwift */,
+				007C32F229480CCC0030BC36 /* RxCocoa */,
+			);
 			productName = ReactorKit_TutorialTests;
 			productReference = 007C327B29470AC60030BC36 /* ReactorKit_TutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -553,6 +572,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		007C32EE29480CC10030BC36 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C32B8294714FD0030BC36 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		007C32F029480CC60030BC36 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		007C32F229480CCC0030BC36 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C32BB294715160030BC36 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
