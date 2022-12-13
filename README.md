@@ -14,6 +14,7 @@
 | 2022.12.07 | FileDownloader_Preview | 파일을 다운로드하고 프리뷰를 보여준다. |
 | 2022.12.09 | ReactorKit_Tutorial | ReactorKit이 무엇인지 알아보자 (참고: https://ios-development.tistory.com/782) |
 | 2022.12.12 | ReactorKit_Tutorial_UnitTest | ReactorKit_Tutorial 프로젝트의 유닛 테스트 (참고: https://ios-development.tistory.com/783) |
+| 2022.12.13 | LazyVariables | 순환참조 오류와 메모리관리 (참고: https://baked-corn.tistory.com/45) |
 
 # 학습 리스트업 in WiKi
 
