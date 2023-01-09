@@ -52,6 +52,7 @@
 | Swift에서 정규식 처리 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%A0%95%EA%B7%9C%EC%8B%9D-%EC%B2%98%EB%A6%AC |
 | Swift Regex (WWDC 2022) | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-Regex-(WWDC-2022) |
 | Swift 화면 스크린샷 방지 | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-%ED%99%94%EB%A9%B4-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EB%B0%A9%EC%A7%80 |
+| Type Conversion | https://github.com/ehrldyd15/Swift_Skills/wiki/Type-Conversion |
 
 ## 최적화
 
