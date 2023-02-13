@@ -106,3 +106,4 @@
 | 초기화(Initializers) - 클래스 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---%ED%81%B4%EB%9E%98%EC%8A%A4 |
 | 초기화(Initializers) - Initializer Delegation | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%B4%88%EA%B8%B0%ED%99%94(Initializers)---Initializer-Delegation |
 | 생명주기 함수 | https://github.com/ehrldyd15/Swift_Skills/wiki/%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98 |
+
