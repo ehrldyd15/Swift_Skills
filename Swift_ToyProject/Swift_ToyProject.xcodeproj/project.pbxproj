@@ -16,6 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		00593B972A1D983200556FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00593B8D2A1D983100556FBB /* Generic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00593B762A1D983100556FBB;
+			remoteInfo = Generic;
+		};
 		007C2E222936F0150030BC36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 007C2E1E2936F0140030BC36 /* DependencyInjection.xcodeproj */;
@@ -89,6 +96,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00593B8D2A1D983100556FBB /* Generic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Generic.xcodeproj; path = Generic/Generic.xcodeproj; sourceTree = "<group>"; };
 		007C2DC62936EF740030BC36 /* Swift_ToyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_ToyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007C2DC92936EF740030BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		007C2DCB2936EF740030BC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00593B8E2A1D983100556FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00593B982A1D983200556FBB /* Generic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		007C2DBD2936EF740030BC36 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +169,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				00593B8D2A1D983100556FBB /* Generic.xcodeproj */,
 				0096F28329EE278B00CC1DAA /* CombineTutorial.xcodeproj */,
 				007C331429482CC60030BC36 /* LazyVariables.xcodeproj */,
 				007C2F932942CE400030BC36 /* ReactorKit_Tutorial.xcodeproj */,
@@ -315,6 +332,10 @@
 					ProjectRef = 007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */;
 				},
 				{
+					ProductGroup = 00593B8E2A1D983100556FBB /* Products */;
+					ProjectRef = 00593B8D2A1D983100556FBB /* Generic.xcodeproj */;
+				},
+				{
 					ProductGroup = 007C331529482CC60030BC36 /* Products */;
 					ProjectRef = 007C331429482CC60030BC36 /* LazyVariables.xcodeproj */;
 				},
@@ -335,6 +356,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		00593B982A1D983200556FBB /* Generic.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Generic.app;
+			remoteRef = 00593B972A1D983200556FBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		007C2E232936F0150030BC36 /* DependencyInjection.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
