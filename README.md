@@ -96,6 +96,7 @@
 | GCD 기초 13 | https://sujinnaljin.medium.com/ios-%EC%B0%A8%EA%B7%BC%EC%B0%A8%EA%B7%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-gcd-13-723d33e157e |
 | GCD 기초 14 | https://sujinnaljin.medium.com/ios-%EC%B0%A8%EA%B7%BC%EC%B0%A8%EA%B7%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-gcd-14-4aefd4ba1eb7 |
 | GCD 기초 15 | https://sujinnaljin.medium.com/ios-%EC%B0%A8%EA%B7%BC%EC%B0%A8%EA%B7%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-gcd-15-3fef697f9aab |
+| GCD 안에서의 weak self | https://zeushin.github.io/2017/09/26/should-we-use-weak-self-in-gcd/ |
 
 ## 모듈화
 
