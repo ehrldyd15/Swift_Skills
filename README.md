@@ -56,6 +56,9 @@
 | Swift Regex (WWDC 2022) | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-Regex-(WWDC-2022) |
 | Swift 화면 스크린샷 방지 | https://github.com/ehrldyd15/Swift_Skills/wiki/Swift-%ED%99%94%EB%A9%B4-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EB%B0%A9%EC%A7%80 |
 | Type Conversion | https://github.com/ehrldyd15/Swift_Skills/wiki/Type-Conversion |
+| 클로저 기초개념 참고자료 1 | https://babbab2.tistory.com/81 |
+| 클로저 기초개념 참고자료 2 | https://babbab2.tistory.com/78 |
+| 클로저 기초개념 참고자료 3 | https://babbab2.tistory.com/83 |
 
 ## 최적화
 
