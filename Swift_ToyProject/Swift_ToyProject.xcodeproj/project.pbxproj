@@ -16,6 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		004CF8552A84AE5D00A202B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004CF8492A84AE5C00A202B3 /* HorizontalScrollView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 004CF8322A84AE5B00A202B3;
+			remoteInfo = HorizontalScrollView;
+		};
 		00593B972A1D983200556FBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00593B8D2A1D983100556FBB /* Generic.xcodeproj */;
@@ -103,6 +110,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004CF8492A84AE5C00A202B3 /* HorizontalScrollView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HorizontalScrollView.xcodeproj; path = HorizontalScrollView/HorizontalScrollView.xcodeproj; sourceTree = "<group>"; };
 		00593B8D2A1D983100556FBB /* Generic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Generic.xcodeproj; path = Generic/Generic.xcodeproj; sourceTree = "<group>"; };
 		00593BC72A1DF1F700556FBB /* AssociatedType.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AssociatedType.xcodeproj; path = AssociatedType/AssociatedType.xcodeproj; sourceTree = "<group>"; };
 		007C2DC62936EF740030BC36 /* Swift_ToyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_ToyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +143,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004CF84A2A84AE5C00A202B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004CF8562A84AE5D00A202B3 /* HorizontalScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		00593B8E2A1D983100556FBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +201,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				004CF8492A84AE5C00A202B3 /* HorizontalScrollView.xcodeproj */,
 				00593BC72A1DF1F700556FBB /* AssociatedType.xcodeproj */,
 				00593B8D2A1D983100556FBB /* Generic.xcodeproj */,
 				0096F28329EE278B00CC1DAA /* CombineTutorial.xcodeproj */,
@@ -357,6 +374,10 @@
 					ProjectRef = 00593B8D2A1D983100556FBB /* Generic.xcodeproj */;
 				},
 				{
+					ProductGroup = 004CF84A2A84AE5C00A202B3 /* Products */;
+					ProjectRef = 004CF8492A84AE5C00A202B3 /* HorizontalScrollView.xcodeproj */;
+				},
+				{
 					ProductGroup = 007C331529482CC60030BC36 /* Products */;
 					ProjectRef = 007C331429482CC60030BC36 /* LazyVariables.xcodeproj */;
 				},
@@ -377,6 +398,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		004CF8562A84AE5D00A202B3 /* HorizontalScrollView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HorizontalScrollView.app;
+			remoteRef = 004CF8552A84AE5D00A202B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		00593B982A1D983200556FBB /* Generic.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
