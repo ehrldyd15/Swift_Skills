@@ -18,6 +18,8 @@
 | 2023.04.19 | CombineTutorial | Combine에 대해 알아보자 |
 | 2023.05.24 | GenericType | GenericType에 대해 알아보자 |
 | 2023.05.30 | AssosicatedType | AssosicatedType에 대해 알아보자 (진행중) |
+| 2023.08.10 | HorizontalScrollView | HorizontalScrollView 격자형 (https://ios-development.tistory.com/974) |
+| 2023.08.11 | CollectionViewCompositionalLayout | CollectionViewCompositionalLayout 개념 (https://ios-development.tistory.com/945) |
 
 # 학습 리스트업 in WiKi
 
