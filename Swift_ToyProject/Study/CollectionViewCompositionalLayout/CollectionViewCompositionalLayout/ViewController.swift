@@ -78,11 +78,18 @@ class ViewController: UIViewController {
                 
                 // Group
                 let groupSize = NSCollectionLayoutSize(
-                    widthDimension: .fractionalWidth(1),
+                    widthDimension: .fractionalWidth(0.9),
                     heightDimension: .fractionalHeight(groupFractionalHeightFraction)
                 )
                 
                 let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+                
+                group.edgeSpacing = NSCollectionLayoutEdgeSpacing(
+                    leading: .flexible(0), // .fixed()는 절대값
+                    top: nil,
+                    trailing: nil,
+                    bottom: nil
+                )
                 
                 // Section
                 let section = NSCollectionLayoutSection(group: group)
@@ -103,7 +110,7 @@ class ViewController: UIViewController {
                     alignment: .bottom
                 )
                 
-                let leftSize = NSCollectionLayoutSize(widthDimension: .absolute(100), heightDimension: .absolute(700))
+                let leftSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.1), heightDimension: .absolute(700))
                 
                 let left = NSCollectionLayoutBoundarySupplementaryItem(
                     layoutSize: leftSize,

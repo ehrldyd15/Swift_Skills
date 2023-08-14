@@ -13,7 +13,9 @@ final class MyHeaderFooterView: UICollectionReusableView {
         let label = UILabel()
         
         label.textColor = .white
+        label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
+        
         self.addSubview(label)
         
         return label
@@ -25,8 +27,10 @@ final class MyHeaderFooterView: UICollectionReusableView {
         self.backgroundColor = .gray
         
         NSLayoutConstraint.activate([
-            self.label.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.label.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+          self.label.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+          self.label.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+          self.label.leftAnchor.constraint(greaterThanOrEqualTo: self.leftAnchor),
+          self.label.rightAnchor.constraint(lessThanOrEqualTo: self.rightAnchor)
         ])
     }
     
