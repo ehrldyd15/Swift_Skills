@@ -43,7 +43,9 @@ final class MyCell: UICollectionViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
+        
         self.prepare(text: "")
+        
     }
     
     func prepare(text: String) {

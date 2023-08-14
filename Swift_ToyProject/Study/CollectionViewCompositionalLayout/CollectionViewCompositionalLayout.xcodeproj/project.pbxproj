@@ -14,6 +14,7 @@
 		004E3BAF2A85B9B50051EEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004E3BAE2A85B9B50051EEAF /* Assets.xcassets */; };
 		004E3BB22A85B9B50051EEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004E3BB02A85B9B50051EEAF /* LaunchScreen.storyboard */; };
 		004E3BCD2A85BC820051EEAF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E3BCC2A85BC820051EEAF /* MyCell.swift */; };
+		004E3BCF2A89AA230051EEAF /* MyHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E3BCE2A89AA230051EEAF /* MyHeaderFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		004E3BB12A85B9B50051EEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		004E3BB32A85B9B50051EEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004E3BCC2A85BC820051EEAF /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		004E3BCE2A89AA230051EEAF /* MyHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeaderFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				004E3BA52A85B9B40051EEAF /* AppDelegate.swift */,
 				004E3BA72A85B9B40051EEAF /* SceneDelegate.swift */,
 				004E3BA92A85B9B40051EEAF /* ViewController.swift */,
+				004E3BCE2A89AA230051EEAF /* MyHeaderFooterView.swift */,
 				004E3BCC2A85BC820051EEAF /* MyCell.swift */,
 				004E3BAB2A85B9B40051EEAF /* Main.storyboard */,
 				004E3BAE2A85B9B50051EEAF /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				004E3BAA2A85B9B40051EEAF /* ViewController.swift in Sources */,
 				004E3BCD2A85BC820051EEAF /* MyCell.swift in Sources */,
+				004E3BCF2A89AA230051EEAF /* MyHeaderFooterView.swift in Sources */,
 				004E3BA62A85B9B40051EEAF /* AppDelegate.swift in Sources */,
 				004E3BA82A85B9B40051EEAF /* SceneDelegate.swift in Sources */,
 			);
