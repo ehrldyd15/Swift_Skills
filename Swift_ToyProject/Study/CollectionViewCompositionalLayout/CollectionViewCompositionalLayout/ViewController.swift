@@ -46,11 +46,16 @@ class ViewController: UIViewController {
         view.contentInset = .zero
         view.backgroundColor = .clear
         view.clipsToBounds = true
+        // Cell 초기화 부분
         view.register(MyCell.self, forCellWithReuseIdentifier: "MyCell") // TODO: MyCell
         
+        // SupplemtaryView 초기화 부분
         view.register(MyHeaderFooterView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "MyHeaderFooterView")
         view.register(MyHeaderFooterView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "MyHeaderFooterView")
         view.register(MyHeaderFooterView.self, forSupplementaryViewOfKind: "MyLeftView", withReuseIdentifier: "MyHeaderFooterView")
+        
+        // BadgeView 초기화 부분
+        view.register(MyBadgeView.self, forSupplementaryViewOfKind: "MyBadgeView", withReuseIdentifier: "MyBadgeView")
         
         view.translatesAutoresizingMaskIntoConstraints = false
         
@@ -60,7 +65,7 @@ class ViewController: UIViewController {
     // CompositionalLayout은 하나의 CollectionView에 섹션별로 다른 layout을 구성하기가 쉬운 장점이 존재
     // UICollectionViewCompositionalLayout 인스턴스에서 section별로 분기문을 써서 layout을 다르게하기가 간편
     static func getLayout() -> UICollectionViewCompositionalLayout {
-        UICollectionViewCompositionalLayout { (section, env) -> NSCollectionLayoutSection? in
+        let layout = UICollectionViewCompositionalLayout { (section, env) -> NSCollectionLayoutSection? in
             switch section {
             case 0:
                 let itemFractionalWidthFraction = 1.0 / 3.0 // horizontal 3개의 셀
@@ -126,13 +131,23 @@ class ViewController: UIViewController {
                 let groupFractionalHeightFraction = 1.0 / 4.0 // vertical 4개의 셀
                 let itemInset: CGFloat = 2.5
                 
+                // Badge
+                let badgeItemSize = NSCollectionLayoutSize(widthDimension: .absolute(25), heightDimension: .absolute(25))
+                let badgeItemAnchor = NSCollectionLayoutAnchor(edges: [.top, .trailing], fractionalOffset: CGPoint(x: 0.3, y: -0.3))
+                
+                let badgeItem = NSCollectionLayoutSupplementaryItem(
+                    layoutSize: badgeItemSize,
+                    elementKind: "MyBadgeView",
+                    containerAnchor: badgeItemAnchor
+                )
+                
                 // Item
                 let itemSize = NSCollectionLayoutSize(
                     widthDimension: .fractionalWidth(itemFractionalWidthFraction),
                     heightDimension: .fractionalHeight(1)
                 )
                 
-                let item = NSCollectionLayoutItem(layoutSize: itemSize)
+                let item = NSCollectionLayoutItem(layoutSize: itemSize, supplementaryItems: [badgeItem])
                 item.contentInsets = NSDirectionalEdgeInsets(top: itemInset, leading: itemInset, bottom: itemInset, trailing: itemInset)
                 
                 // Group
@@ -147,9 +162,22 @@ class ViewController: UIViewController {
                 let section = NSCollectionLayoutSection(group: group)
                 section.contentInsets = NSDirectionalEdgeInsets(top: itemInset, leading: itemInset, bottom: itemInset, trailing: itemInset)
                 
+                // Decoration
+                // 시스템에서 제공하는 아래 static method API를 사용하여 위에서 등록한 ofKind 값으로 인스턴스 획득
+                // open class func background(elementKind: String) -> Self
+                let decorationView = NSCollectionLayoutDecorationItem.background(elementKind: "MyDecorationView")
+                
+                decorationView.contentInsets = NSDirectionalEdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8)
+                
+                section.decorationItems = [decorationView]
+                
                 return section
             }
         }
+        
+        layout.register(MyDecorationView.self, forDecorationViewOfKind: "MyDecorationView")
+        
+        return layout
     }
     
     private let dataSource: [MySection] = [
@@ -211,6 +239,11 @@ extension ViewController: UICollectionViewDataSource {
           leftView.prepare(text: "left 타이틀")
             
           return leftView
+            
+        case "MyBadgeView":
+            let badgeView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "MyBadgeView", for: indexPath) as! MyBadgeView
+            
+            return badgeView
         default:
             return UICollectionReusableView()
         }

@@ -20,6 +20,7 @@
 | 2023.05.30 | AssosicatedType | AssosicatedType에 대해 알아보자 (진행중) |
 | 2023.08.10 | HorizontalScrollView | HorizontalScrollView 격자형 (https://ios-development.tistory.com/974) |
 | 2023.08.11 | CollectionViewCompositionalLayout | CollectionViewCompositionalLayout 개념 (https://ios-development.tistory.com/945) |
+| 2023.08.16 | CollectionViewCompositionalLayout2 | orthogonalScrollingBehavior, 수평스크롤, visibleItemsInvalidationHandler (https://ios-development.tistory.com/948) |
 
 # 학습 리스트업 in WiKi
 
