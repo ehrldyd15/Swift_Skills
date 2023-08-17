@@ -21,6 +21,7 @@
 | 2023.08.10 | HorizontalScrollView | HorizontalScrollView 격자형 (https://ios-development.tistory.com/974) |
 | 2023.08.11 | CollectionViewCompositionalLayout | CollectionViewCompositionalLayout 개념 (https://ios-development.tistory.com/945) |
 | 2023.08.16 | CollectionViewCompositionalLayout2 | orthogonalScrollingBehavior, 수평스크롤, visibleItemsInvalidationHandler (https://ios-development.tistory.com/948) |
+| 2023.08.17 | YoutubeMusicApp | YoutubeMusicApp (https://sujinnaljin.medium.com/wwdc-demystify-swiftui-identity-2021fdda87b0) |
 
 # 학습 리스트업 in WiKi
 
