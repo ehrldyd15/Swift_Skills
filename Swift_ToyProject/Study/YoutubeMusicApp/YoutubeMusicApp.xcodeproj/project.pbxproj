@@ -13,6 +13,14 @@
 		006EF7342A8D954200F3D8B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006EF7322A8D954200F3D8B1 /* Main.storyboard */; };
 		006EF7362A8D954300F3D8B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006EF7352A8D954300F3D8B1 /* Assets.xcassets */; };
 		006EF7392A8D954300F3D8B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006EF7372A8D954300F3D8B1 /* LaunchScreen.storyboard */; };
+		006EF75C2A8DB6CA00F3D8B1 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 006EF75B2A8DB6CA00F3D8B1 /* Then */; };
+		006EF75E2A8DEF0800F3D8B1 /* ConceptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EF75D2A8DEF0800F3D8B1 /* ConceptCell.swift */; };
+		006EF7602A8DEF1300F3D8B1 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EF75F2A8DEF1300F3D8B1 /* FooterView.swift */; };
+		006EF7622A8DEF2E00F3D8B1 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EF7612A8DEF2E00F3D8B1 /* MusicCell.swift */; };
+		006EF7642A8DEF3A00F3D8B1 /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EF7632A8DEF3A00F3D8B1 /* TitleHeaderView.swift */; };
+		006EF7662A8DEF4600F3D8B1 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EF7652A8DEF4600F3D8B1 /* Mock.swift */; };
+		006EF7682A8DF1C100F3D8B1 /* MusicSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EF7672A8DF1C100F3D8B1 /* MusicSection.swift */; };
+		006EF76B2A8EEA7800F3D8B1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 006EF76A2A8EEA7800F3D8B1 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,12 @@
 		006EF7352A8D954300F3D8B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006EF7382A8D954300F3D8B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006EF73A2A8D954300F3D8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006EF75D2A8DEF0800F3D8B1 /* ConceptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptCell.swift; sourceTree = "<group>"; };
+		006EF75F2A8DEF1300F3D8B1 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		006EF7612A8DEF2E00F3D8B1 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		006EF7632A8DEF3A00F3D8B1 /* TitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
+		006EF7652A8DEF4600F3D8B1 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		006EF7672A8DF1C100F3D8B1 /* MusicSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006EF75C2A8DB6CA00F3D8B1 /* Then in Frameworks */,
+				006EF76B2A8EEA7800F3D8B1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,12 @@
 				006EF72C2A8D954200F3D8B1 /* AppDelegate.swift */,
 				006EF72E2A8D954200F3D8B1 /* SceneDelegate.swift */,
 				006EF7302A8D954200F3D8B1 /* ViewController.swift */,
+				006EF75D2A8DEF0800F3D8B1 /* ConceptCell.swift */,
+				006EF75F2A8DEF1300F3D8B1 /* FooterView.swift */,
+				006EF7612A8DEF2E00F3D8B1 /* MusicCell.swift */,
+				006EF7632A8DEF3A00F3D8B1 /* TitleHeaderView.swift */,
+				006EF7652A8DEF4600F3D8B1 /* Mock.swift */,
+				006EF7672A8DF1C100F3D8B1 /* MusicSection.swift */,
 				006EF7322A8D954200F3D8B1 /* Main.storyboard */,
 				006EF7352A8D954300F3D8B1 /* Assets.xcassets */,
 				006EF7372A8D954300F3D8B1 /* LaunchScreen.storyboard */,
@@ -83,6 +105,10 @@
 			dependencies = (
 			);
 			name = YoutubeMusicApp;
+			packageProductDependencies = (
+				006EF75B2A8DB6CA00F3D8B1 /* Then */,
+				006EF76A2A8EEA7800F3D8B1 /* SnapKit */,
+			);
 			productName = YoutubeMusicApp;
 			productReference = 006EF7292A8D954200F3D8B1 /* YoutubeMusicApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,10 @@
 				Base,
 			);
 			mainGroup = 006EF7202A8D954200F3D8B1;
+			packageReferences = (
+				006EF75A2A8DB6CA00F3D8B1 /* XCRemoteSwiftPackageReference "Then" */,
+				006EF7692A8EEA7800F3D8B1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 006EF72A2A8D954200F3D8B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006EF75E2A8DEF0800F3D8B1 /* ConceptCell.swift in Sources */,
 				006EF7312A8D954200F3D8B1 /* ViewController.swift in Sources */,
+				006EF7642A8DEF3A00F3D8B1 /* TitleHeaderView.swift in Sources */,
 				006EF72D2A8D954200F3D8B1 /* AppDelegate.swift in Sources */,
+				006EF7602A8DEF1300F3D8B1 /* FooterView.swift in Sources */,
 				006EF72F2A8D954200F3D8B1 /* SceneDelegate.swift in Sources */,
+				006EF7682A8DF1C100F3D8B1 /* MusicSection.swift in Sources */,
+				006EF7622A8DEF2E00F3D8B1 /* MusicCell.swift in Sources */,
+				006EF7662A8DEF4600F3D8B1 /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +392,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		006EF75A2A8DB6CA00F3D8B1 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		006EF7692A8EEA7800F3D8B1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		006EF75B2A8DB6CA00F3D8B1 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 006EF75A2A8DB6CA00F3D8B1 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		006EF76A2A8EEA7800F3D8B1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 006EF7692A8EEA7800F3D8B1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 006EF7212A8D954200F3D8B1 /* Project object */;
 }

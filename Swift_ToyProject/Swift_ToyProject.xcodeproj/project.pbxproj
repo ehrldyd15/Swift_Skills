@@ -58,6 +58,13 @@
 			remoteGlobalIDString = 006EF7292A8D954200F3D8B1;
 			remoteInfo = YoutubeMusicApp;
 		};
+		006EF7932A8EF36A00F3D8B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 006EF78C2A8EF36900F3D8B1 /* CarouselScrollView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 006EF7752A8EF36800F3D8B1;
+			remoteInfo = CarouselScrollView;
+		};
 		007C2E222936F0150030BC36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 007C2E1E2936F0140030BC36 /* DependencyInjection.xcodeproj */;
@@ -137,6 +144,7 @@
 		00593BC72A1DF1F700556FBB /* AssociatedType.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AssociatedType.xcodeproj; path = AssociatedType/AssociatedType.xcodeproj; sourceTree = "<group>"; };
 		006EF7082A8C991B00F3D8B1 /* CollectionViewConpositionalLayout2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CollectionViewConpositionalLayout2.xcodeproj; path = CollectionViewConpositionalLayout2/CollectionViewConpositionalLayout2.xcodeproj; sourceTree = "<group>"; };
 		006EF7402A8D954300F3D8B1 /* YoutubeMusicApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YoutubeMusicApp.xcodeproj; path = YoutubeMusicApp/YoutubeMusicApp.xcodeproj; sourceTree = "<group>"; };
+		006EF78C2A8EF36900F3D8B1 /* CarouselScrollView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CarouselScrollView.xcodeproj; path = CarouselScrollView/CarouselScrollView.xcodeproj; sourceTree = "<group>"; };
 		007C2DC62936EF740030BC36 /* Swift_ToyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_ToyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007C2DC92936EF740030BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		007C2DCB2936EF740030BC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +223,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		006EF78D2A8EF36900F3D8B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				006EF7942A8EF36A00F3D8B1 /* CarouselScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		007C2DBD2936EF740030BC36 = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +265,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				006EF78C2A8EF36900F3D8B1 /* CarouselScrollView.xcodeproj */,
 				006EF7402A8D954300F3D8B1 /* YoutubeMusicApp.xcodeproj */,
 				006EF7082A8C991B00F3D8B1 /* CollectionViewConpositionalLayout2.xcodeproj */,
 				004E3BB92A85B9B50051EEAF /* CollectionViewCompositionalLayout.xcodeproj */,
@@ -405,6 +422,10 @@
 					ProjectRef = 007C2EB6293D77A60030BC36 /* AsyncStream_AsyncThrowingStream.xcodeproj */;
 				},
 				{
+					ProductGroup = 006EF78D2A8EF36900F3D8B1 /* Products */;
+					ProjectRef = 006EF78C2A8EF36900F3D8B1 /* CarouselScrollView.xcodeproj */;
+				},
+				{
 					ProductGroup = 004E3BBA2A85B9B50051EEAF /* Products */;
 					ProjectRef = 004E3BB92A85B9B50051EEAF /* CollectionViewCompositionalLayout.xcodeproj */;
 				},
@@ -501,6 +522,13 @@
 			fileType = wrapper.application;
 			path = YoutubeMusicApp.app;
 			remoteRef = 006EF7442A8D954300F3D8B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		006EF7942A8EF36A00F3D8B1 /* CarouselScrollView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CarouselScrollView.app;
+			remoteRef = 006EF7932A8EF36A00F3D8B1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		007C2E232936F0150030BC36 /* DependencyInjection.app */ = {
