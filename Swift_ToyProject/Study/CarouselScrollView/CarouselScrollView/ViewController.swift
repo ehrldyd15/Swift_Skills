@@ -14,7 +14,7 @@ private var randomColor: UIColor {
 class ViewController: UIViewController {
     
     private enum Const {
-        static let itemSize = CGSize(width: 300, height: 400)
+        static let itemSize = CGSize(width: 300, height: 300)
         static let itemSpacing = 24.0
         
         static var insetX: CGFloat {
@@ -99,6 +99,15 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
         let scrolledOffsetX = targetContentOffset.pointee.x + scrollView.contentInset.left
         let cellWidth = Const.itemSize.width + Const.itemSpacing
         let index = round(scrolledOffsetX / cellWidth)
+        
+        print("targetContentOffset.pointee.x: ", targetContentOffset.pointee.x)
+        print("scrollView.contentInset.left: ", scrollView.contentInset.left)
+        print("scrolledOffsetX: ", scrolledOffsetX)
+        print("cellWidth: ", cellWidth)
+        print("index: ", index)
+        
+        print("x: ", index * cellWidth - scrollView.contentInset.left)
+        print("y: ", scrollView.contentInset.top)
         
         targetContentOffset.pointee = CGPoint(x: index * cellWidth - scrollView.contentInset.left, y: scrollView.contentInset.top)
     }
