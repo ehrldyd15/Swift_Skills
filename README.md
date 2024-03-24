@@ -77,6 +77,7 @@
 | Static & Dynamic Dispatch 2 | https://github.com/ehrldyd15/Swift_Skills/wiki/Static-Dispatch-&-Dynamic-Dispatch-2 |
 | Dependency Injection | https://github.com/ehrldyd15/Swift_Skills/wiki/Dependency-Injection |
 | Weak self | https://github.com/ehrldyd15/Swift_Skills/wiki/Weak-self |
+| FluidTransition | https://techblog.lycorp.co.jp/ko/make-seamless-screen-transition-in-line-ios-app |
 
 ## concurrency 
 
