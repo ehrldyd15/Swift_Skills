@@ -128,6 +128,27 @@
 			remoteGlobalIDString = 007C32FD29482CC40030BC36;
 			remoteInfo = LazyVariables;
 		};
+		008A8F9C2E13BD6B003BC6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008A8F942E13BD6A003BC6D5 /* TDD_Test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008A8F602E13BD68003BC6D5;
+			remoteInfo = TDD_Test;
+		};
+		008A8F9E2E13BD6B003BC6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008A8F942E13BD6A003BC6D5 /* TDD_Test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008A8F762E13BD6A003BC6D5;
+			remoteInfo = TDD_TestTests;
+		};
+		008A8FA02E13BD6B003BC6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008A8F942E13BD6A003BC6D5 /* TDD_Test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008A8F802E13BD6A003BC6D5;
+			remoteInfo = TDD_TestUITests;
+		};
 		0096F28929EE278C00CC1DAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0096F28329EE278B00CC1DAA /* CombineTutorial.xcodeproj */;
@@ -161,6 +182,7 @@
 		007C2F192940263F0030BC36 /* FileDownloader_Preview.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FileDownloader_Preview.xcodeproj; path = FileDownloader_Preview/FileDownloader_Preview.xcodeproj; sourceTree = "<group>"; };
 		007C2F932942CE400030BC36 /* ReactorKit_Tutorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactorKit_Tutorial.xcodeproj; path = ReactorKit_Tutorial/ReactorKit_Tutorial.xcodeproj; sourceTree = "<group>"; };
 		007C331429482CC60030BC36 /* LazyVariables.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LazyVariables.xcodeproj; path = LazyVariables/LazyVariables.xcodeproj; sourceTree = "<group>"; };
+		008A8F942E13BD6A003BC6D5 /* TDD_Test.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TDD_Test.xcodeproj; path = /Users/dokiyong/Desktop/TDD_Test/TDD_Test.xcodeproj; sourceTree = "<absolute>"; };
 		0096F28329EE278B00CC1DAA /* CombineTutorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CombineTutorial.xcodeproj; path = CombineTutorial/CombineTutorial.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -265,6 +287,7 @@
 		007C2DDD2936EF8A0030BC36 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				008A8F942E13BD6A003BC6D5 /* TDD_Test.xcodeproj */,
 				006EF78C2A8EF36900F3D8B1 /* CarouselScrollView.xcodeproj */,
 				006EF7402A8D954300F3D8B1 /* YoutubeMusicApp.xcodeproj */,
 				006EF7082A8C991B00F3D8B1 /* CollectionViewConpositionalLayout2.xcodeproj */,
@@ -346,6 +369,16 @@
 			isa = PBXGroup;
 			children = (
 				007C331E29482CC70030BC36 /* LazyVariables.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008A8F972E13BD6B003BC6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008A8F9D2E13BD6B003BC6D5 /* TDD_Test.app */,
+				008A8F9F2E13BD6B003BC6D5 /* TDD_TestTests.xctest */,
+				008A8FA12E13BD6B003BC6D5 /* TDD_TestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -470,6 +503,10 @@
 					ProjectRef = 007C2E6A29387A180030BC36 /* Sequence.xcodeproj */;
 				},
 				{
+					ProductGroup = 008A8F972E13BD6B003BC6D5 /* Products */;
+					ProjectRef = 008A8F942E13BD6A003BC6D5 /* TDD_Test.xcodeproj */;
+				},
+				{
 					ProductGroup = 006EF7412A8D954300F3D8B1 /* Products */;
 					ProjectRef = 006EF7402A8D954300F3D8B1 /* YoutubeMusicApp.xcodeproj */;
 				},
@@ -592,6 +629,27 @@
 			fileType = wrapper.application;
 			path = LazyVariables.app;
 			remoteRef = 007C331D29482CC70030BC36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		008A8F9D2E13BD6B003BC6D5 /* TDD_Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TDD_Test.app;
+			remoteRef = 008A8F9C2E13BD6B003BC6D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		008A8F9F2E13BD6B003BC6D5 /* TDD_TestTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TDD_TestTests.xctest;
+			remoteRef = 008A8F9E2E13BD6B003BC6D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		008A8FA12E13BD6B003BC6D5 /* TDD_TestUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TDD_TestUITests.xctest;
+			remoteRef = 008A8FA02E13BD6B003BC6D5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0096F28A29EE278C00CC1DAA /* CombineTutorial.app */ = {
